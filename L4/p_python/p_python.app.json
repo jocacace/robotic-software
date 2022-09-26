@@ -1,0 +1,30 @@
+{
+    "name": "p_python",
+    "modules": [
+      "sight"
+    ],
+    "graph": {
+      "nodes": [
+        {
+          "name": "p_python",
+          "components": [
+            {
+              "name": "message_ledger",
+              "type": "isaac::alice::MessageLedger"
+            }
+          ]
+        }
+      ],
+      "edges": [
+      ]
+    },
+    "config": {
+      "p_python": {
+        "PyCodelet": {
+          "desired_position_meters": 10.0,
+          "gain": 1.0
+        }
+      }
+    }
+  }
+  
